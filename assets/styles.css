@@ -1,0 +1,308 @@
+@charset "UTF-8";
+
+
+html, body{
+    background-color: #0079BF;
+    font-family: Arial;
+}
+
+
+header{
+    content: '';
+    background: #0067A3;
+    text-align: center;
+    padding: 2px 8px;
+    margin:auto;
+}
+
+
+
+#addRow.button {
+
+    background: orangered;
+    border: none;
+    color: white;
+    margin-left: 40%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1.10vw 4vw;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1vw;
+    cursor: pointer;
+    font-size: 1.49vw;
+    font-weight: bold;
+    position: relative;
+    top: 19%;
+    margin-top: -3.15em;
+}
+
+.row{
+    display: inline-table;
+    background-color: #E2E4E6;
+    margin-right: 20px;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    height: 28vw;
+    width: 20vw;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 1.39vw;
+    margin-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+#textfield{
+    display:none;
+}
+.task{
+    height:3vw;
+    width: 10vw;
+    margin:auto;
+    color: white;
+    border-radius:10px;
+    display:flex;
+}
+
+.AddTask{
+    margin-top: 20px;
+    vertical-align: middle;
+    font-size:1.19vw;
+}
+
+button.task{
+    text-align: center;
+    font-weight: bold;
+    width: 7vw;
+    height: 3vw;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    border: none;
+    margin-top: 5px;
+    padding-left:1vw;
+    font-size: 1.20vw;
+
+}
+div.croix {
+    margin-top: -32px;
+    margin-left: 258px;
+    color: #898A8B;
+    font-weight: bold;
+    font-size: 2.39vw;
+    border-radius: 12px;
+    width: 45px;
+    cursor: pointer;
+
+}
+
+
+
+.croix:hover, .croix:focus{
+    color: rgba(0, 0, 0, 0.58);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+span {
+
+    margin-right: 30px;
+    color: black;
+    margin-left: 33px;
+    font-weight: bold;
+}
+.onrow{
+    margin-right: 30px;
+    color: black;
+    margin-left: 33px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.create{
+    cursor: pointer;
+    background-color: #519839;
+    margin-right: 67px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1vw;
+    color: white;
+    padding: 8px;
+
+}
+.cancel{
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-size:  1vw;
+    color: white;
+    background-color: #c5c5c5;
+    padding: 8px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.taskdiv{
+    background-color:white;
+    color:#596064;;
+    border-radius:5px;
+    font-size: 1.05vw;
+    width: 270px;
+    margin : 15px;
+    word-wrap: break-word;
+    padding: 5px;
+    cursor: pointer;
+
+}
+.Newtextitle{
+    border: none;
+    margin-right: -12px;
+    font-weight: bold;
+    position: relative;
+    font-size: 1.39vw;
+    cursor: pointer;
+    text-align: center;
+}
+#trello{
+    width: 100px;
+    height: 30px;
+}
+
+textarea {
+    height: 110px;
+    width: 240px;
+    border: 5px;
+    word-wrap: break-word;
+    margin-top: -3px;
+    font-size: 1.19vw;
+    font-family: Arial;
+    padding: 6px;
+    color: #3d4347;
+
+
+
+}
+main {
+    margin-top: 3%;
+}
+img{
+    height: 49px;
+    width: 205px;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+
+
+}
+.modal-content{
+
+    background-color: #E2E4E6;
+    margin: 10% auto;
+    padding: 20px;
+    width: 24%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0
+    rgba(0,0,0.17);
+    border-radius: 10px;
+
+}
+.closeBtn{
+    color: #898A8B;
+    float: right;
+    font-size: 2vw;
+
+}
+
+.closeBtn:hover, .closeBtn:focus{
+    color: rgba(0, 0, 0, 0.58);
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.titleTask
+{cursor: pointer;}
+.buttton{
+    float: right;
+}
+.buttton:hover, .buttton:focus{
+
+    color: rgba(0, 0, 0, 0.58);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.popupbutton{
+    cursor: pointer;
+    background-color: #5abf8a;
+    margin-right: 67px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.5vw;
+    color: white;
+    padding: 8px;
+    margin-top: 13px;
+    margin-left: 121px;
+
+
+}
+
+
+.titledescription{
+    border: none;
+
+    font-size: 1.2vw;
+    font-family: Arial;
+    color: #3d4347;
+    font-weight: bold;
+
+}
+
+
+.TitleChangeTask{
+margin-left: 33px;
+    color: #596064;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.TitleChangeTitle{
+    margin-left: 33px;
+    color: #596064;
+    font-size: 16px;
+    font-weight: bold;
+}
+#changetitle{
+
+    border: none;
+    margin-left: 33px;
+    font-size: 1.19vw;
+    font-family: Arial;
+    font-weight: bold;
+}
+#changetask{
+    margin-left: 33px;
+    border: none;
+    font-size: 1.2vw;
+    font-family: Arial;
+    color: #3d4347;
+
+
+}
